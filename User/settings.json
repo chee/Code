@@ -1,0 +1,45 @@
+{
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+	"workbench.colorTheme": "Snazzy Light",
+	"editor.fontFamily": "Consolas",
+	"editor.tabSize": 5,
+	"editor.renderWhitespace": "boundary",
+	"editor.cursorStyle": "block",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"files.autoSave": "onFocusChange",
+	"terminal.external.linuxExec": "alacritty",
+	"terminal.integrated.enableBell": true,
+	"terminal.integrated.shell.linux": "/bin/zsh",
+	"editor.fontSize": 16,
+	"window.menuBarVisibility": "default",
+	"workbench.sideBar.location": "left",
+	"workbench.activityBar.visible": true,
+	"editor.minimap.enabled": false,
+	"editor.formatOnSave": true,
+	"workbench.editor.showTabs": false,
+	"git.confirmSync": false,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.useTabs": true,
+	"editor.insertSpaces": false,
+	"window.zoomLevel": 0,
+	"todohighlight.include": [
+		"**/*.js",
+		"**/*.jsx",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.html",
+		"**/*.php",
+		"**/*.css",
+		"**/*.scss"
+	],
+    "todohighlight.keywords": [
+        "TODO"
+    ],
+"window.titleBarStyle": "custom",
+"editor.formatOnType": true,
+"editor.formatOnPaste": true,
+"editor.renderControlCharacters": true
+}
