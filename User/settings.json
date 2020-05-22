@@ -1,8 +1,8 @@
 {
 	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
-	"workbench.colorTheme": "Snazzy Light",
-	"editor.fontFamily": "Consolas",
+	"workbench.colorTheme": "Bubblegum",
+	"editor.fontFamily": "Source Code Pro",
 	"editor.tabSize": 5,
 	"editor.renderWhitespace": "boundary",
 	"editor.cursorStyle": "block",
@@ -41,5 +41,13 @@
 "window.titleBarStyle": "custom",
 "editor.formatOnType": true,
 "editor.formatOnPaste": true,
-"editor.renderControlCharacters": true
+"editor.renderControlCharacters": true,
+"typescript.updateImportsOnFileMove.enabled": "always",
+"files.associations": {
+	"grub": "properties"
+},
+"editor.suggestSelection": "first",
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"todo-tree.tree.showScanModeButton": false,
+"gitlens.codeLens.authors.enabled": false
 }

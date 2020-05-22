@@ -225,6 +225,10 @@
 		"command": "-workbench.action.files.openFile"
 	},
 	{
+		"key": "ctrl+x ctrl+f",
+		"command": "-workbench.action.files.openFile"
+	},
+	{
 		"key": "meta+k meta+o",
 		"command": "workbench.action.files.openFolder"
 	},
@@ -365,7 +369,7 @@
 		"when": "notebookEditorFocused && !inputFocus"
 	},
 	{
-		"key": "meta+v",
+		"key": "shift+meta+v",
 		"command": "editor.action.clipboardPasteAction",
 		"when": "textInputFocus && !editorReadonly"
 	},
@@ -1118,5 +1122,33 @@
 		"key": "ctrl+k ctrl+d",
 		"command": "-editor.action.moveSelectionToNextFindMatch",
 		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "editor.action.transpose"
+	},
+	{
+		"key": "meta+tab",
+		"command": "editor.action.reindentselectedlines"
+	},
+	{
+		"key": "meta+[",
+		"command": "editor.action.outdentLines",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+[",
+		"command": "-editor.action.outdentLines",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "meta+v",
+		"command": "emacs-mcx.yank",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+y",
+		"command": "-emacs-mcx.yank",
+		"when": "editorTextFocus && !editorReadonly"
 	}
 ]
